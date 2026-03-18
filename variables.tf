@@ -1,19 +1,24 @@
-variable "component" {
-  type = string
-}
-
 variable "project" {
-  default = "roboshop"
+    default = "roboshop"
 }
 
 variable "environment" {
-  default = "dev"
+    default = "dev"
 }
 
-variable "zone_id" {
-  default = "Z02030392LMN8KQVWR9UZ"
+variable "component" {
+    type = string
+}
+
+variable "app_version" {
+    type = string
+    default = "v3"
+}
+
+variable "rule_priority" {
+    
 }
 
 variable "domain_name" {
-  default = "dawsmani.site"
+    default = "daws88s.online"
 }
